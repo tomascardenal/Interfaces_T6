@@ -33,9 +33,13 @@
             // 
             // multimediaUC1
             // 
-            this.multimediaUC1.Location = new System.Drawing.Point(190, 235);
+            this.multimediaUC1.AutoSize = true;
+            this.multimediaUC1.Location = new System.Drawing.Point(134, 24);
+            this.multimediaUC1.Minutes = ((uint)(0u));
             this.multimediaUC1.Name = "multimediaUC1";
-            this.multimediaUC1.Size = new System.Drawing.Size(130, 150);
+            this.multimediaUC1.Playing = false;
+            this.multimediaUC1.Seconds = ((uint)(0u));
+            this.multimediaUC1.Size = new System.Drawing.Size(183, 203);
             this.multimediaUC1.TabIndex = 0;
             // 
             // Form1
@@ -45,8 +49,9 @@
             this.ClientSize = new System.Drawing.Size(448, 510);
             this.Controls.Add(this.multimediaUC1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Test Multimedia Player";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

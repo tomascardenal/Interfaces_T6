@@ -49,7 +49,10 @@
             // multimediaUC1
             // 
             this.multimediaUC1.Location = new System.Drawing.Point(321, 54);
+            this.multimediaUC1.Minutes = ((uint)(0u));
             this.multimediaUC1.Name = "multimediaUC1";
+            this.multimediaUC1.Playing = false;
+            this.multimediaUC1.Seconds = ((uint)(0u));
             this.multimediaUC1.Size = new System.Drawing.Size(105, 115);
             this.multimediaUC1.TabIndex = 8;
             // 
